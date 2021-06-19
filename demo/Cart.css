@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+	margin: 0;	
+}
+
+body {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/* background: linear-gradient(to right, #ff105f, #ffad06); */
+	/* background: rgb(204,42,231);       rgba(204,42,231,1) , rgba(111,94,228,1) */
+    
+	/* background: blue; */
+	/* background-repeat: no-repeat;
+	background-position: top; */
+}
+
+
+
+/*NAVBAR */
+
+.nav {
+    z-index: 1000;
+    top: 0;
+    position: fixed; 
+	width: 100%;	
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: rgb(0, 153, 145);
+	height: 110px;
+}
+
+.nav ul li {
+    float: right;
+    /* border-right: 1px solid #bbb; */
+	font-size: 20px;
+	/* padding-top: 22px;  */
+	/* padding-top: 22px;  */
+}
+
+.nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0 16px;
+	text-decoration: none;
+	height: 40px;
+	padding-top: 42px;
+	
+}
+
+.nav ul li a:hover {    
+    border-bottom:2px solid #fff;   
+}
+
+.nav .search-container {	
+    float: left;
+    margin-left: 10px;
+}
+.nav .search-container form{
+	display:flex;
+	/* justify-content: space-around;  */
+	flex-wrap: nowrap;
+}
+
+.nav .search-container button:hover {
+    background: #ccc;
+}
+
+.nav .search-container a img{
+	margin-top: 26px; 
+	width: 75px;
+	height: 55px;
+	border-radius: 20%;
+	margin-right: 35px;	
+}
+.nav .search-container a img:hover{
+	width: 80px;
+	height: 60px;
+}
+
+.nav input[type=text] {
+	
+    padding: 6px;
+	margin-top: 30px; 	
+    font-size: 17px;
+	width: 420px;
+	height: 30px;
+	border: none;
+}	
+
+.nav .search-container button {
+	float: unset;
+	width: 50px;
+	height: 42px;
+    padding: 6px 10px;
+    margin-top: 30px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    margin-bottom: 130px;
+} 
+
+#container{
+    margin-top: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    margin-left: 30px; 
+    display: flex;   
+    margin-bottom: 50px;   
+}
+hr{
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+}
+.title img{    
+    width: 200px;
+    height: 220px;
+    border: 0.5px solid rgb(148, 146, 146);
+    border-radius: 4px;
+    /* margin-right: 50px; */
+}
+
+.title .content{
+    margin-left: 55px;; 
+}
+.title .content h3{
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+.title .content span{    
+    font-size: 18px;
+}
+.title .content p{
+    margin-top: 20px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+}
+
+.title .content button{
+    margin-top: 20px;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;;
+    border:none;
+    cursor:pointer;    
+    border-radius: 3px;
+    background-color: rgb(5, 168, 5);   
+    color: #fff; 
+}
+
+
+.about-pdt{
+    margin-left: 30px;
+}
+
+.info p{
+    margin-top: 20px;
+    color: rgb(44, 44, 44);
+    font-size: 18px;
+}
+.info h3{
+    margin-top: 20px;
+}
+/*SLIDER*/
+*{
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+  .select{
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	width: 31.3%;
+	float: unset;
+	height: 230px;
+	margin: 10px 7px 10px 7px;
+	border-radius: 7px;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+	background-position: center;
+	background-size: cover;
+    border: solid 3px white; 
+    background-color: black;
+}
+
+.select:hover{
+	transition-duration: .1s;
+    box-shadow: 0px 7px 10px 3px rgb(0,0,0,.8);
+    cursor: pointer;
+}
+
+.slider1{
+    margin: 30px 0px;
+}
+
+.slider1 h2{
+    margin-bottom: 10px;
+    size: 20px;
+    color: #666;
+    font-family: 'Noto Serif', serif;
+}
+.swiper-container {
+    /* width: 100%;
+    height: 100%; */
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    margin-top: 50px;
+    width: 130px;
+    height: 150px;
+}
+.swiper-slide a{
+    color: #000;
+}
+.swiper-slide p{
+    margin-top: 15px;
+}
+
+
+
+#container{
+    margin: 10px;   
+}
+.fixed-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.Item1 h2{
+    color:rgb(0, 0, 0);
+    font-stretch: wider;
+    font-weight: bold;
+}
+.Item1{
+    margin:0 10px 0 10px; 
+	overflow:hidden;
+	text-align: left; 
+	padding: 10px;
+    width: 450px;	
+	background: linear-gradient(198deg, rgba(123,231,119,1) 25%, rgba(119,231,213,1) 37%, rgba(17,87,233,1) 90%);   
+	border-radius:10px;   
+}
+.Item1 p{
+    padding: 10px 0 10px 0;
+}
+.Item1 img{
+    float:right;
+    width: 150px; 
+    height: 120px;  
+    border-radius: 10px; 
+}
+
+.order-now{
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+    /* margin-left: 20px;  */
+    font-weight: bold;    
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(47, 174, 216);
+    cursor: pointer;
+}
+
+
+
+/* LONG OFFER STRIP  */
+#long-offer{
+    margin: 10px;
+}
+.trial{
+    background: linear-gradient(16deg, rgba(177,37,236,1) 35%, rgba(215,108,224,1) 85%);
+    color: #fff;
+    position: relative;  
+    display:flex;  
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+.trial img{
+    border-radius: 20%;
+    width: 150px;
+}
+.trial #p-text{
+    margin-left: 40px;
+    margin-top: 45px; 
+    font-size: 20px;
+    /* font-weight: bold;  */
+}
+/* FOOTER  */
+footer {
+    background-color: rgb(230, 224, 224);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    bottom: 0;    
+}
+
+
+footer .copyright{
+    text-align: center;
+    padding: 14px;
+    font-size: 15px;
+}
+
+
+
+/*CART*/
+.content-wrapper{
+    width:1050px;
+    margin: 0 auto;
+}
+header .content-wrapper {
+    display:flex;
+}
+main .cart h1{
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: 40px 0;
+    font-size: 24px;
+    text-align: center;
+    width:100%;
+}
+main .cart table{
+    width:100%;
+}
+main .cart table thead td {
+	padding: 30px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+main .cart table thead td:last-child {
+	text-align: right;
+}
+main .cart table tbody td {
+	padding: 20px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+main .cart table tbody td:last-child {
+	text-align: right;
+}
+main .cart table .img {
+	width: 80px;
+}
+main .cart table .remove {
+	color: #777777;
+	font-size: 12px;
+	padding-top: 3px;
+}
+main .cart table .remove:hover {
+	text-decoration: underline;
+}
+main .cart table .price {
+	color: #999999;
+}
+main .cart table a {
+	text-decoration: none;
+	color: #555555;
+}
+main .cart table input[type="number"] {
+	width: 68px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: #555555;
+	border-radius: 5px;
+}
+main .cart .subtotal {
+	text-align: right;
+	padding: 40px 0;
+}
+main .cart .subtotal .text {
+	padding-right: 40px;
+	font-size: 18px;
+}
+main .cart .subtotal .price {
+	font-size: 18px;
+	color: #999999;
+}
+main .cart .buttons {
+	text-align: right;
+	padding-bottom: 40px;
+}
+main .cart .buttons input[type="submit"] {
+	margin-left: 5px;
+	padding: 12px 20px;
+	border: 0;
+	background: #4e5c70;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 5px;
+}
+main .cart .buttons input[type="submit"]:hover {
+	background: #434f61;
+}
